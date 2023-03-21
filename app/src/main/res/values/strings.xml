@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SalvadorExamenFinal</string>
+    <string name="guardar_producto">Guardar producto</string>
+    <string name="id">ID</string>
+    <string name="precio">precio</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="category">category</string>
+    <string name="rate">rate</string>
+    <string name="count">#Count</string>
+    <string name="titulo">titulo</string>
 </resources>
