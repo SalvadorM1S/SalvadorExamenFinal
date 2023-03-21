@@ -41,12 +41,12 @@ public class AdapterProducto extends RecyclerView.Adapter<AdapterProducto.MyView
     public void onBindViewHolder(@NonNull AdapterProducto.MyViewHolder holder, int position) {
 
         holder.id.setText("#" + String.valueOf(position+1));
-        holder.title.setText(category.get(position).getCategory());
-        holder.precio.setText(category.get(position).getCategory());
-        holder.descripcion.setText(category.get(position).getCategory());
-        holder.categoria.setText(category.get(position).getCategory());
-        holder.rate.setText(category.get(position).getCategory());
-        holder.count.setText(category.get(position).getCategory());
+        holder.title.setText(category.get(position+2).getCategory());
+        holder.precio.setText(category.get(position+3).getCategory());
+        holder.descripcion.setText(category.get(position+4).getCategory());
+        holder.categoria.setText(category.get(position+5).getCategory());
+        holder.rate.setText(category.get(position+6).getCategory());
+        holder.count.setText(category.get(position+7).getCategory());
 
         holder.editProd.setOnClickListener(new View.OnClickListener() {
             @Override
